@@ -24,11 +24,6 @@ function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
   return false;
 }
 
-doesArrayIncludeItemsBetweenVals([2, 4, 2], 3, 5);
-doesArrayIncludeItemsBetweenVals([2, 3, 2], 5, 10);
-
-
-
 /**
  * ====================================================
  * Please read the /exercises-info/e4.md file. It describes different types of syntax to write functions
@@ -52,11 +47,6 @@ function getValueWithConditionOne(x, z) {
   return (x + z) * 2;
 }
 
-getValueWithConditionOne(40, 40);
-getValueWithConditionOne(20, 30);
-
-
-
 const getValueWithConditionTwo = (a, b) => {
   if (a === 40 & b === 40) {
     return a + b;
@@ -64,24 +54,12 @@ const getValueWithConditionTwo = (a, b) => {
   return (a + b) * 2;
 }
 
-getValueWithConditionTwo(40, 40);
-getValueWithConditionTwo(20, 30);
-
-
 var getValueWithConditionThree = function(a, b) {
   if (a === 40 & b === 40) {
     return a + b;
   }
   return (a + b) * 2;
 }
-
-getValueWithConditionThree(40, 40);
-getValueWithConditionThree(20, 30);
-
-
-
- 
-
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-3"

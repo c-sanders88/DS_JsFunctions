@@ -9,7 +9,7 @@
  * splitFirstAndLastNames('John Smith') => ['John', 'Smith']
  */
 
-const splitFirstAndLastNames = str => str.split(' ');
+const splitFirstAndLastNames = (str) => str.split(' ');
 
 
 /** =========================
@@ -18,7 +18,7 @@ const splitFirstAndLastNames = str => str.split(' ');
  * personAge({ id: 1, name: 'Someone', age: 32}) => 32
  */
 
-const personAge = personObject => personObject.age;
+const personAge = (personObject) => personObject.age;
 
 
 /** =========================
